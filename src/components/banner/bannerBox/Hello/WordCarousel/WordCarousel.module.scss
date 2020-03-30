@@ -1,0 +1,15 @@
+.wordcarousel__wrapper{
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-style: italic;
+  transition: color 0.2s ease-out;
+  position: relative;
+  margin: 0 .3rem;
+
+    & span {
+        text-align: center;
+        width: 100%;
+    }
+}

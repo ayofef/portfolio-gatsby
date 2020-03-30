@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+
+.section__about{
+    text-align: center;
+
+    @media screen and (max-width: 26.875em){
+        text-align: left;
+    }
+
+    & p{
+        margin-bottom: 1rem;
+
+        & strong{
+            font-weight: 600;
+        }
+
+        & a:link,
+        & a:visited{
+            color: currentColor;
+            text-decoration: underline;
+            font-weight: 600;
+            transition: all .3s ease-out;
+        }
+        & a:hover,
+        & a:active{
+            color: $primary-color-light;
+        }
+    }
+
+    & .stack{
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 1.9rem;
+        width: 80%;
+        margin: 3rem auto 0 auto;
+
+        @media screen and (max-width: 26.875em){
+            width: 100%;
+            text-align: center;
+        }
+
+        & span{
+            display: block;
+            padding-top: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    & .resume{
+        margin-top: 3rem;
+
+   
+        @media screen and (max-width: 26.875em){
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+ 
+    }
+}

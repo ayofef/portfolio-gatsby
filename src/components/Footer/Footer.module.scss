@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.footer{
+    background-image: linear-gradient(220deg, $primary-color, $primary-color-dark);
+    background-size: 300%;
+    animation: footerBack 10s ease-out infinite;
+
+    &__content{
+        min-height: 20rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        align-items: center;
+        color: $secondary-color;
+        padding-bottom: 3rem;
+    }
+    &__copy{
+        margin-top: 2rem;
+    }
+
+    &__toTop{
+        background-color: transparent;
+        border: none;
+        margin-bottom: 4rem;
+        cursor: pointer;
+
+        &:hover svg{
+            fill: #777;
+        }
+
+        &:focus{
+            outline-width: 0;
+        }
+
+        & svg{
+            transition: all .3s ease-out;
+            fill: $secondary-color;
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+}
+
+@keyframes footerBack {
+
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }

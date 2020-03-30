@@ -1,0 +1,73 @@
+@import "../../../../styles/variables";
+
+.BannerQuote{
+    flex: 0 1 36.333333%;
+    animation: moveInRight 1.2s ease-out;
+    animation-fill-mode: backwards;
+    position: relative;
+    animation-delay: 1.3s;
+
+    @media screen and (max-width: 43.75em){
+        width: 100%;
+        flex: 0;
+    }
+
+    &::before{
+        content: "“";
+        font-family: sans-serif;
+        position: absolute;
+        color: rgba(#fff, .3);
+        font-size: 12rem;
+        top: -5rem;
+        right: 0;
+        transform: scaleX(-1);
+    }
+
+    &__quote{
+        color: #fff;
+        font-size: 2.3rem;
+        margin-bottom: 2.3rem;
+
+        @media screen and (max-width: 37.5em){
+            font-size: 1.8rem;
+        }
+
+    }
+
+    &__link{
+        font-weight: 700;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        backface-visibility: hidden;
+        position: relative;
+        border-radius: 3rem;
+        padding: 1.2rem 4rem;
+        font-size: 1.2rem;
+        color: $secondary-color;
+        color: $primary-color;
+        background-color: $secondary-color;
+        cursor: pointer;
+
+        &:hover{
+            transform: translateY(-0.188rem);
+            box-shadow: 0 0.8rem 0.5rem rgba($secondary-color, 0.1);
+        }
+
+        &:active{
+            transform: translateY(-0.063rem);
+            box-shadow: 0 0.4rem 0.5rem rgba($secondary-color, 0.05);
+        }
+    }
+}
+
+
+  @keyframes moveInRight {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }

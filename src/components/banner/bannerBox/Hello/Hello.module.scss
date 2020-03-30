@@ -1,0 +1,40 @@
+.bannerbox__hello{
+    
+    color: #fff;
+    animation: moveInLeft 1.5s ease-out;
+    animation-fill-mode: backwards;
+    
+
+
+    & h1{
+        font-weight: 300;
+        font-size: 5.7rem;
+        
+        @media screen and (max-width: 37.5em){
+            font-size: 4.5rem;
+        }
+    }
+
+    & h2{
+        font-size: 1.8rem;
+    }
+
+
+    @media screen and (max-width: 43.75em){
+        margin-bottom: 4rem;
+    }
+}
+
+@keyframes moveInLeft {
+    0%{
+      opacity: 0;
+      transform: translateX(-10rem);
+    }
+    80%{
+      transform: translate(1rem);
+    }
+    100%{
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
