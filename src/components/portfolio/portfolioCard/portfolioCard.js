@@ -26,7 +26,7 @@ const PortfolioCard = (props) => {
                     <a href={props.source} className={[classes.btn_source, "btn"].join(" ")} target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
-                                <use href={props.url + "sprite.svg#icon-github"}></use>
+                                <use href={props.url + "/sprite.svg#icon-github"}></use>
                             </svg>
                         </span>
                      Source</a>
