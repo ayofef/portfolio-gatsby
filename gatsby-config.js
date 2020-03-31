@@ -9,11 +9,12 @@ module.exports = {
 
   siteMetadata: {
     title: "Farouq.dev | Front-end Developer",
-    author: "FarouqDev",
+    author: "Farouq Ayofe",
     description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5, CSS3, JAVASCRIPT, SASS, JQUERY, PHP, WordPress, Adobe Photoshop and InVision.",
     type: "website",
-    siteUrl: "localhost:8000",
-    image: "farouq.jpeg"
+    siteUrl: "https://farouq.dev/",
+    image: "farouq.jpeg",
+    keywords"farouq.dev, ayofef, front-end developer, freelance, web developer, portfolio"
 
 
 
