@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql, useStaticQuery } from "gatsby";
 import { Link } from "gatsby";
 import { animateScroll } from "react-scroll";
 import sprite from "../../../static/sprite.svg";
@@ -14,6 +15,17 @@ const Footer = () => {
     date = new Date();
     fullYear = date.getFullYear();
 
+    const data = useStaticQuery(graphql`
+    query{
+            
+        site {
+            siteMetadata {
+                siteUrl
+            }
+        }
+    }
+
+    `)
 
     return(
         <footer className={classes.footer}>
@@ -22,7 +34,7 @@ const Footer = () => {
                     <button className={classes.footer__toTop} aria-label="to_top" onClick={() => animateScroll.scrollToTop({spy:true, smooth:true, duration:50, delay:0})}>
                         <span>
                             <svg aria-hidden="true">
-                                <use xlinkHref={sprite + "#icon-chevron-with-circle-up"}></use>
+                                <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-chevron-with-circle-up"}></use>
                             </svg>
                         </span>
                     </button>
