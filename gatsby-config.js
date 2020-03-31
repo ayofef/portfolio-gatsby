@@ -10,11 +10,12 @@ module.exports = {
   siteMetadata: {
     title: "Farouq.dev | Front-end Developer",
     author: "Farouq Ayofe",
-    description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5 - CSS3 - JAVASCRIPT - Webpack - Babel - SASS - PHP - WordPress - Git - Adobe Photoshop - Adobe Xd - Bootstrap - ReactJS - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS",
+    description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5 - CSS3 - JAVASCRIPT - Webpack - Babel - SASS - PHP - WordPress - Git - Adobe Photoshop - Adobe Xd - Bootstrap - ReactJS - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS.",
     type: "website",
     siteUrl: "https://farouq.dev",
     image: "farouq.jpeg",
-    keywords: "farouq.dev, ayofef, front-end developer, freelance, web developer, portfolio"
+    keywords: "farouq.dev, ayofef, front-end developer, freelance, web developer, portfolio",
+    robots: "index"
 
 
 
@@ -64,7 +65,7 @@ module.exports = {
         short_name: `Farouq.Dev`,
         start_url: `/`,
         icon: `static/logo/icon.png`,
-        background_color: `#851d41`,
+        background_color: `#fff`,
         theme_color: `#851d41`,
         display: `standalone`,
       }

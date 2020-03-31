@@ -19,6 +19,7 @@ const Layout = (props) => {
                     image
                     author
                     keywords
+                    robot
                 }
             }
         }
@@ -30,6 +31,7 @@ const Layout = (props) => {
                 <html lang="en" />
                 <title>{data.site.siteMetadata.title}</title>
                 <meta name="description" content={data.site.siteMetadata.description} />
+                <meta name="robots" content={data.site.siteMetadata.robot} />
                 <meta name="og:title" content={data.site.siteMetadata.title} />
                 <meta name="og:keywords" content={data.site.siteMetadata.keywords} />
                 <meta name="author" content={data.site.siteMetadata.author} />
