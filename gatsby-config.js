@@ -47,6 +47,14 @@ module.exports = {
       }
     },
 
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://farouq.dev',
+        sitemap: 'https://farouq.dev/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     
 
     {
