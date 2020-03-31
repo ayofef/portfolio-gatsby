@@ -31,7 +31,7 @@ const Layout = (props) => {
                 <meta name="description" content={data.site.siteMetadata.description} />
                 <meta name="og:title" content={data.site.siteMetadata.title} />
                 <meta name="og:keywords" content={data.site.siteMetadata.keywords} />
-                <meta name="author" content={data.site.siteMetadata.author}>
+                <meta name="author" content={data.site.siteMetadata.author} />
                 <meta name="og:type" content={data.site.siteMetadata.type} />
                 <meta name="og:url" content={data.site.siteMetadata.siteUrl} />
                 <meta name="og:image" content={[data.site.siteMetadata.siteUrl, "/", data.site.siteMetadata.image].join("")} />
