@@ -12,7 +12,7 @@ module.exports = {
     author: "Farouq Ayofe",
     description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5, CSS3, JAVASCRIPT, SASS, JQUERY, PHP, WordPress, Adobe Photoshop and InVision.",
     type: "website",
-    siteUrl: "https://farouq.dev/",
+    siteUrl: "https://farouq.dev",
     image: "farouq.jpeg",
     keywords: "farouq.dev, ayofef, front-end developer, freelance, web developer, portfolio"
 
