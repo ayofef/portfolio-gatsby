@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: "Farouq.dev | Front-end Developer",
     author: "Farouq Ayofe",
-    description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5, CSS3, JAVASCRIPT, SASS, JQUERY, PHP, WordPress, Adobe Photoshop and InVision.",
+    description: "I'm a front-end developer and Ui/Ux enthusait ready to help you with your digital transformation. My current stack of languages or technologies includes: HTML5 - CSS3 - JAVASCRIPT - Webpack - Babel - SASS - PHP - WordPress - Git - Adobe Photoshop - Adobe Xd - Bootstrap - ReactJS - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS",
     type: "website",
     siteUrl: "https://farouq.dev",
     image: "farouq.jpeg",

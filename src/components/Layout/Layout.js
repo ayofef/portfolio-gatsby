@@ -27,6 +27,7 @@ const Layout = (props) => {
     return(
         <React.Fragment>
             <Helmet> 
+                <html lang="en" />
                 <title>{data.site.siteMetadata.title}</title>
                 <meta name="description" content={data.site.siteMetadata.description} />
                 <meta name="og:title" content={data.site.siteMetadata.title} />

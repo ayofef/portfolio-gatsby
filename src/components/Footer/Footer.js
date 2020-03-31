@@ -19,7 +19,7 @@ const Footer = () => {
         <footer className={classes.footer}>
             <div className="container">
                 <div className={classes.footer__content}>
-                    <button className={classes.footer__toTop} onClick={() => animateScroll.scrollToTop({spy:true, smooth:true, duration:50, delay:0})}>
+                    <button className={classes.footer__toTop} name="to_top" onClick={() => animateScroll.scrollToTop({spy:true, smooth:true, duration:50, delay:0})}>
                         <span>
                             <svg aria-hidden="true">
                                 <use xlinkHref={sprite + "#icon-chevron-with-circle-up"}></use>

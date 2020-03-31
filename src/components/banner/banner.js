@@ -33,7 +33,7 @@ const Banner = () => {
         <BackgroundImage
             tag="section"
             fluid={data.file.childImageSharp.fluid}
-            backgroundColor={`#040e18`}
+            backgroundColor={`#851d41`}
             style={style}
         >
             <BannerBox />
