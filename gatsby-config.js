@@ -15,7 +15,7 @@ module.exports = {
     siteUrl: "https://farouq.dev",
     image: "farouq.jpeg",
     keywords: "farouq.dev, ayofef, front-end developer, freelance, web developer, portfolio",
-    robots: "index"
+    robot: "index"
 
 
 
