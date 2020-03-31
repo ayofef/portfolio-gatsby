@@ -24,7 +24,6 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-plugin-svg-sprite": "^2.0.1",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-remark": "^2.7.1",

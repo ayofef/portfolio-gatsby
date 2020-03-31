@@ -82,7 +82,6 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-svg-sprite`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`
 
