@@ -132,10 +132,11 @@
       .main_navigation__button {
         display: none;
         position: absolute;
-        right: 0;
-        padding: 0 1rem;
+        top: .8rem;
+        right: -.8rem;
+        padding: 2rem;
         margin-right: 1rem; } }
-    @media screen and (max-width: 37.5em) and (max-width: 37.5em) {
+    @media screen and (max-width: 37.5em){
       .main_navigation__button {
         display: block; } }
     @media screen and (max-width: 37.5em) {

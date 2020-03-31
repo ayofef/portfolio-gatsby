@@ -30,6 +30,7 @@ const Layout = (props) => {
             <Helmet> 
                 <html lang="en" />
                 <title>{data.site.siteMetadata.title}</title>
+                <meta name="google-site-verification" content="0j6Ak-DmlE9O9Iq6AsPF3Ydvg4057AYgw7ilMoZV6sM" />
                 <meta name="description" content={data.site.siteMetadata.description} />
                 <meta name="robots" content={data.site.siteMetadata.robot} />
                 <meta name="og:title" content={data.site.siteMetadata.title} />

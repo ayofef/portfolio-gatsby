@@ -1,6 +1,6 @@
 ---
 title: "Farouq .Dev"
-stack: "React - Gatsby"
+stack: "React - Gatsby - SCSS Modules"
 live: "/"
 source: "/"
 image: "portfolio.jpg"
