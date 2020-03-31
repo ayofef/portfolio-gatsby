@@ -35,7 +35,7 @@ const Portfolio = () => {
                                 image{
                                 childImageSharp {
                                     fluid(maxWidth: 600, quality: 90) {
-                                    ...GatsbyImageSharpFluid_tracedSVG
+                                        ...GatsbyImageSharpFluid_withWebp
                                     }
                                 }
                             }
