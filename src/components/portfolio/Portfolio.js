@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 source
                                 image{
                                 childImageSharp {
-                                    fluid(maxWidth: 600, quality: 90) {
+                                    fluid(maxWidth: 500, quality: 90) {
                                         ...GatsbyImageSharpFluid_withWebp
                                     }
                                 }
