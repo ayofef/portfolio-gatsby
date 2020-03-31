@@ -19,6 +19,7 @@ const Portfolio = () => {
                 extension: { eq: "md" }
                 relativeDirectory: { regex: "/portfolio/" }
                 }
+                sort: { fields: [dir], order: ASC }
             ) {
                 edges {
                     node{
@@ -33,7 +34,7 @@ const Portfolio = () => {
                                 source
                                 image{
                                 childImageSharp {
-                                    fluid(maxWidth: 700, quality: 90) {
+                                    fluid(maxWidth: 600, quality: 90) {
                                     ...GatsbyImageSharpFluid_tracedSVG
                                     }
                                 }
@@ -43,6 +44,11 @@ const Portfolio = () => {
                     }
                 }
             
+            }
+            site {
+                siteMetadata {
+                    siteUrl
+                }
             }
         }
         
@@ -62,7 +68,8 @@ const Portfolio = () => {
                             image={node.childMarkdownRemark.frontmatter.image.childImageSharp.fluid} 
                             live={node.childMarkdownRemark.frontmatter.live} 
                             source={node.childMarkdownRemark.frontmatter.source} 
-                            tech={node.childMarkdownRemark.frontmatter.stack}/>
+                            tech={node.childMarkdownRemark.frontmatter.stack}
+                            url={data.site.siteMetadata.siteUrl}/>
                         ))
                     }
                 </div>

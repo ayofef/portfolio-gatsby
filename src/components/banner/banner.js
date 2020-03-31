@@ -13,7 +13,7 @@ const Banner = () => {
             file(name: { eq : "bckg"}){
                 id
                 childImageSharp {
-                    fluid(quality: 100, maxHeight: 500) {
+                    fluid(quality: 100, maxWidth: 1500) {
                         ...GatsbyImageSharpFluid_withWebp
                     }
                 }

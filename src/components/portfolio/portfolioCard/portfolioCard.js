@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from "gatsby-image";
 
-import sprite from "../../../../static/sprite.svg";
+
 
 import classes from "./portfolioCard.module.scss";
 
@@ -19,14 +19,14 @@ const PortfolioCard = (props) => {
                     <a href={props.live} className="btn" target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
-                                <use xlinkHref={sprite + "#icon-link"}></use>
+                                <use href={props.url + "/sprite.svg#icon-link"}></use>
                             </svg>
                         </span> 
                     Visit</a>
                     <a href={props.source} className={[classes.btn_source, "btn"].join(" ")} target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
-                                <use xlinkHref={sprite + "#icon-github"}></use>
+                                <use href={props.url + "sprite.svg#icon-github"}></use>
                             </svg>
                         </span>
                      Source</a>

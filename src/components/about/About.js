@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import resume from "../../../static/Ayofe_Farouq _CV.pdf";
 import Heading from "../Utilities/Headings/Heading";
-import sprite from "../../../static/sprite.svg";
 
 import classes from "./About.module.scss";
 
@@ -28,6 +27,11 @@ const About = () => {
                 html
             
             }
+            site {
+                siteMetadata {
+                    siteUrl
+                }
+            }
         }
       
       `);
@@ -48,7 +52,7 @@ const About = () => {
                     <a href={resume} className={["btn", `${classes.resume}`].join(" ")} target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
-                                <use xlinkHref={sprite + "#icon-paper-plane"}></use>
+                                <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-paper-plane"}></use>
                             </svg>
                         </span>
                         Resume</a>

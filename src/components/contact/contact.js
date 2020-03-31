@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
-import sprite from "../../../static/sprite.svg";
 import classes from "./contact.module.scss";
 import Heading from "../Utilities/Headings/Heading";
 
@@ -31,6 +30,11 @@ const Contact = () => {
                     }
                 }
             }
+            site {
+                siteMetadata {
+                    siteUrl
+                }
+            }
         }
       
       `);
@@ -48,14 +52,14 @@ const Contact = () => {
                             <a href={data.markdownRemark.frontmatter.linkedinlink} className={classes.contact__info___tel_and_mail____link}>
                                 <span>
                                     <svg className={classes.contact__icon} aria-hidden="true">
-                                        <use xlinkHref={sprite + "#icon-linkedin"}></use>
+                                        <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-linkedin"}></use>
                                     </svg>
                                 </span> {data.markdownRemark.frontmatter.linkedin}
                             </a>
                             <a href={"mailto:" + data.markdownRemark.frontmatter.email} className={classes.contact__info___tel_and_mail____link}>
                                 <span>
                                     <svg className={classes.contact__icon} aria-hidden="true">
-                                        <use xlinkHref={sprite + "#icon-email"}></use>
+                                        <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-email"}></use>
                                     </svg>
                                 </span> {data.markdownRemark.frontmatter.email}
                             </a>
