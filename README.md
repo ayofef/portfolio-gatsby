@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Farouq Dev. Porsonal site created with Gatsby
+  Farouq Dev. Personal site created with Gatsby
 </h1>
 
 
