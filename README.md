@@ -9,10 +9,19 @@
 </h1>
 
 
-Design inspired by [Fidalgo.dev](https://fidalgodev.com)
+
+<p align="center">
+  <a href="https://fidalgodev.com">
+    Design inspired by Fidalgo.dev
+  </a>
+</p>
 
 
-## 🚀 [Live at:](https://farouq.dev)
+
+## 🚀 [Live at: Farouq.dev](https://farouq.dev)
+
+
+
 
 ![Thumbnail](thumbnail.jpg)
 
