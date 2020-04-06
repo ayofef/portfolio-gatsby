@@ -124,12 +124,12 @@
 
 /*hamburger*/
 
-.main_navigation {
-    z-index: 1000; }
+
     .main_navigation__checkbox {
       display: none; }
     @media screen and (max-width: 37.5em) {
       .main_navigation__button {
+        z-index: 1000;
         display: none;
         position: absolute;
         top: .8rem;

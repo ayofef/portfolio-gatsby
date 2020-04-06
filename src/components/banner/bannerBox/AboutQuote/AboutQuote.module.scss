@@ -2,10 +2,10 @@
 
 .BannerQuote{
     flex: 0 1 36.333333%;
-    animation: moveInRight 1.2s ease-out;
-    animation-fill-mode: backwards;
+    // animation: moveInRight 1.2s ease-out;
+    // animation-fill-mode: backwards;
     position: relative;
-    animation-delay: 1.3s;
+    // animation-delay: 1.3s;
 
     @media screen and (max-width: 43.75em){
         width: 100%;
