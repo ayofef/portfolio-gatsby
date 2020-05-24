@@ -1,5 +1,5 @@
 import React from 'react';
-import {Spring, config} from 'react-spring/renderprops';
+import {Spring } from 'react-spring/renderprops';
 import { Link } from "react-scroll";
 
 import classes from "./AboutQuote.module.scss";

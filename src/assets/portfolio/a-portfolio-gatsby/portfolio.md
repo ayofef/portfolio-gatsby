@@ -1,6 +1,6 @@
 ---
 title: "Farouq .Dev"
-stack: "React - Gatsby - SCSS Modules"
+stack: "ReactJS - Gatsby - SCSS Modules"
 live: "/"
 source: "https://github.com/ayofef/portfolio-gatsby"
 image: "portfolio.jpg"

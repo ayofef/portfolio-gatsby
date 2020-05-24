@@ -1,8 +1,6 @@
 import React from 'react';
-import { graphql, useStaticQuery } from "gatsby";
-import { Link } from "gatsby";
+import { Link, graphql, useStaticQuery } from "gatsby";
 import { animateScroll } from "react-scroll";
-import sprite from "../../../static/sprite.svg";
 
 import LogoSvg from "../../../static/logo/logo_dark.svg";
 

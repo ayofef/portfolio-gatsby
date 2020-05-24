@@ -1,6 +1,6 @@
 ---
 title: "about"
-stack: "HTML5 - CSS3 - JAVASCRIPT - Webpack - Babel - SASS - PHP - WordPress - Git - Adobe Photoshop - Adobe Xd - Bootstrap - ReactJS - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS"
+stack: "HTML5 - CSS3 - JAVASCRIPT - Webpack - Babel - SASS - Git - ReactJS - Redux - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS - Firebase - Adobe Photoshop - Adobe Xd"
 ---
 
 

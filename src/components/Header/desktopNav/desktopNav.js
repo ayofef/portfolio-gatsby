@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { useTrail, animated, config } from 'react-spring';
+import { useTrail, animated } from 'react-spring';
 
 import classes from "./desktopNav.module.scss";
 
