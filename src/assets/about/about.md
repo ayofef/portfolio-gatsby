@@ -1,6 +1,6 @@
 ---
 title: "about"
-stack: "HTML5 - CSS3 - JAVASCRIPT - TypeScript - Webpack - Babel - SASS - Git - ReactJS - Redux - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS - Firebase - Adobe Photoshop - Adobe Xd"
+stack: "HTML5 - CSS3 - JavaScript - TypeScript - Webpack - Babel - SASS - Git - ReactJS - Redux - GatsbyJS - CSS Modules - Styled Component - GraphQL - Headless CMS - Firebase - Adobe Photoshop - Adobe Xd"
 ---
 
 After my college degree in **"Mass Communication"** which explored Broadcasting communications, Public relation and Advertising, I decided to change career path to client-side programming due to my **aptitude** in digital technology. I started my masters programme in **"Applied Digital Media"** in February 2018, at [Griffith College Dublin,](https://www.griffith.ie/) straight into the challenging world of Javascript using [p5\*](https://p5js.org "the power of Processing times the reach of JavaScript").
