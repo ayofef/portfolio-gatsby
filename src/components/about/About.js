@@ -49,7 +49,7 @@ const About = () => {
                         My current stack of languages/technologies is:<br />
                         <span>{data.markdownRemark.frontmatter.stack}</span>
                     </strong></p>
-                    <a href="#" className={["btn", `${classes.resume}`].join(" ")} target="_blank" rel="noopener noreferrer">
+                    <a href="https://farouq.dev" className={["btn", `${classes.resume}`].join(" ")} target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
                                 <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-paper-plane"}></use>
