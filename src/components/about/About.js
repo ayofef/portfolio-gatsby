@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from "gatsby";
 
-import resume from "../../../static/Ayofe_Farouq _CV.pdf";
+
 import Heading from "../Utilities/Headings/Heading";
 
 import classes from "./About.module.scss";
@@ -49,7 +49,7 @@ const About = () => {
                         My current stack of languages/technologies is:<br />
                         <span>{data.markdownRemark.frontmatter.stack}</span>
                     </strong></p>
-                    <a href={resume} className={["btn", `${classes.resume}`].join(" ")} target="_blank" rel="noopener noreferrer">
+                    <a href="#" className={["btn", `${classes.resume}`].join(" ")} target="_blank" rel="noopener noreferrer">
                         <span>
                             <svg className="button-icon" aria-hidden="true">
                                 <use href={data.site.siteMetadata.siteUrl + "/sprite.svg#icon-paper-plane"}></use>
